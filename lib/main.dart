@@ -50,7 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent, // status bar color
     ));
-    _player.setAsset('assets/dink.mp3');
+    _player.setAsset('assets/dink.wav');
+    _player.setVolume(2.0);
   }
 
   @override
@@ -61,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     ]);
     _player.setAsset('assets/dink.wav');
+    _player.setVolume(2.0);
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent, // status bar color
     ));
